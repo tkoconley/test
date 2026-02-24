@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+* /*universal selector*/ {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+main {
+	background-color: lightskyblue;
+	margin: 10px 5%;
+}
+
+div {
+	border-style: solid;
+}
+
+.Masthead {
+	background-color: lightgreen;
+	width: 100%;
+	height: 150px;
+	/*padding-top: 32px;
+	padding-right: 32px;
+	padding-left: 32px;
+	padding-bottom: 32px; */
+	padding: 32px 12px;
+	border: 4px solid green;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.Masthead h1 {
+	font-size: 3rem;
+}
+
+.navbar ul {
+	list-style-type: none;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+	padding: 0 35px;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+}
+
+.navbar a:hover {
+	background-color: whitesmoke;
+	color: darkgoldenrod;
+
+}
+
+.hplayout {
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	font-size: 1.1rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+
+
+.leftdiv {
+	padding: 10px;
+	margin: 20px;
+	width: 50%;
+}
+
+.leftdiv h2 {
+	margin-bottom: 10px;
+}
+
+.leftdiv h3 {
+	margin-bottom: 10px;
+}
+
+.leftdiv p {
+	margin-bottom: 10px;
+}
+
+
+.leftdiv hr {
+	margin-bottom: 10px;
+}
+
+
+
+.rightdiv {
+	padding: 10px;
+	margin: 20px;
+	width: 50%;
+}
+
+.rightdiv h2 {
+	margin-bottom: 10px;
+}
+
+.rightdiv h3 {
+	margin-bottom: 10px;
+}
+
+.rightdiv p {
+	margin-bottom: 10px;
+}
+
+
+.rightdiv hr {
+	margin-bottom: 10px;
+}
+
+/* Beginning of about page style*/
+.abouttop {
+	padding: 30px;
+}
+
+.abouttop h2 {
+	margin-bottom: .8rem;
+	font-size: 1.8rem;
+}
+
+.abouttop p {
+	line-height: 1.4rem;
+	margin-bottom: 1rem;
+}
+
+
+#headline {
+	background-color: yellow;
+	color: darkblue;
+}
